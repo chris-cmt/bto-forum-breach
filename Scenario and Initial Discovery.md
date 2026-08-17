@@ -86,6 +86,32 @@ PATH to files
 `c:\Users\SBTuser\Desktop\Investigation\kape-findings`
 
 # Initial discovery
+UAC - Unix-like Artifacts Collector image on the desktop
+Path: C:\Users\BTLOTest\Desktop\Artefacts\ForumBreach\uac-linux-20260625114019
+
+Windows Subsytem for Linux on Desktop
+cd /mnt/c/Users/BTLOTest/Desktop/Artefacts/ForumBreach/uac-linux-20260625114019/
+
+ls -trl var/www/discuz/          
+ls -trl var/log/
+
+- Nginx
+cat var/log/nginx/access.log.1 
+cat var/log/nginx/access.log.1 
+
+cat var/log/nginx/access.log.1 
+
+root@ForumBreach:/mnt/c/Users/BTLOTest/Desktop/Artefacts/ForumBreach/uac-linux-20260625114019/[root ]# 1s -trl home/khalid/FirmAE/scratch/1/
+- tar2db.log
+- makeImage.log
+- qemu.initial.serial.log
+- emulation.log
+- makeNetwork.log
+- qemu.final.serial.log
+
+
+
+
 
 # Questions
 
