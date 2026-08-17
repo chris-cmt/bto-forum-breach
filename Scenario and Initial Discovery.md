@@ -37,16 +37,49 @@ As an Incident Responder at the national CERT, you receive an urgent notificatio
     - WinSearchDBAnalyzer
     - Woanware
 - Data Conversion & Processing
+    - CyberChef
+    - Date_Conversion
+    - exifdataview
+    - exiftoolgui
+    - Hashing
+    - RdpCacheStitcher-v1.1-win64
+    - strawberry_perl
 - Database Tooling
 - Filesystem Registry & Artefact Analysis
+    - HxD
+    - notatin
+    - RegRipper3.0
+    - TotalReg
+    - UserAssist
 - Forensic Suites & Plugins
 - MacOS Specific
+    - chainbreaker-master
+    - FSEventsParser
+    - macMRU-Parser
+    - spotlight_parser
+    - UnifiedLoglterator
 - Malware Analysis & Reverse Engineering
+    - DensityScout
+    - die_win64_portable_3.10_x64
+    - dnSpy-net-win32
+    - dnSpy-net-win64
+    - jadx-gui-1.5.2-with-jre-win
+    - processhacker-2.8-bin
+    - SysinternalsSuite
+    - x64dbg
+    - yara
+    - IDA Freeware 8.4
 - mimikatz-master
 - Mobile Device Forensics
+    - aleappGUI-v3.4.0-Windows
+    - aleapp-v3.4.0-Windows
+    - ileappGUI-v2.2.0-Windows
+    - ileapp-v2.2.0-Windows
 - Network Analysis
+    - Wireshark 
 - VoidTools
 - Zimmerman Tools
+    - net6
 
 # Investigation data
 PATH to files
