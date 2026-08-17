@@ -3,7 +3,7 @@ As an Incident Responder at the national CERT, you receive an urgent notificatio
 
 # Investigation data
 PATH to files
-`c:\Users\SBTuser\Desktop\Investigation\kape-findings`
+`C:\Users\BTLOTest\Desktop\Artefacts\ForumBreach\uac-linux-20260625114019`
 
 # Initial discovery
 UAC - Unix-like Artifacts Collector image on the desktop
