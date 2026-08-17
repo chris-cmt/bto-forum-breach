@@ -3,20 +3,50 @@ As an Incident Responder at the national CERT, you receive an urgent notificatio
 
 # Investigation Tools
 
-Tooling
-Acquisition & Live Response
-Application & OS Artefact Analysis
-Data Conversion & Processing
-Database Tooling
-Filesystem Registry & Artefact Analysis
-Forensic Suites & Plugins
-MacOS Specific
-Malware Analysis & Reverse Engineering
-mimikatz-master
-Mobile Device Forensics
-Network Analysis
-VoidTools
-Zimmerman Tools
+- Acquisition & Live Response
+    - Arsenal-Image-Mounter
+    - Belkasoft RAM Capture
+    - Encrypted_Disk_Hunter
+    - EncryptedDiskDetector
+    - FTK Imager
+    - kape
+    - Magnet_Forensics
+    - MemProcFS
+    - ProcessMonitor
+    - Sanderson
+    - velociraptor
+- Application & OS Artefact Analysis
+    - bmc-tools-master
+    - browserdownloadsview-x64
+    - browsinghistoryview-x64
+    - Email
+    - EMFSpoolViewer
+    - EventLogs
+    - NTFS Log Tracker CMD v1.9
+    - NTFS Log Tracker v1.9
+    - Printer_Spool_File
+    - rdpieces-master
+    - Recycle_bin
+    - RWCF
+    - srum-dump
+    - Teams_Parser
+    - thumbcache_viewer
+    - thumbs_viewer
+    - userassist
+    - WFA
+    - WinSearchDBAnalyzer
+    - Woanware
+- Data Conversion & Processing
+- Database Tooling
+- Filesystem Registry & Artefact Analysis
+- Forensic Suites & Plugins
+- MacOS Specific
+- Malware Analysis & Reverse Engineering
+- mimikatz-master
+- Mobile Device Forensics
+- Network Analysis
+- VoidTools
+- Zimmerman Tools
 
 # Investigation data
 PATH to files
