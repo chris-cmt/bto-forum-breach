@@ -56,9 +56,7 @@ SELECT * FROM discuz` .pre_ucenter_notelist WHERE closed='0' AND app1<'1' AND ap
 SELECT uid FROM pre_common_member WHERE username='admin
 UPDATE pre_common_member SET password='153979402029a9d2d67258d36c71c2b6' WHERE uid='1'
 UPDATE discuz`.pre_ucenter_notelist SET app1='1', totalnum=totalnum+1, succeednum=succeednum+1, dateline='1782298375' ,closed='1' WHERE noteid='1'
-
 discuz@localhost on discuz using TCP/IP
-
 ```
 
 ![alt text](image-3.png)
