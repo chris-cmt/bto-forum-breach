@@ -15,7 +15,7 @@ grep "\.php" var/log/nginx/access.log.1 | grep -v -E "\.(css|js)"
 awk '{print $1}' var/log/nginx/access.log.1  | sort | uniq -c | sort -nr
 
 grep -E "^192.168.9.1 " var/log/nginx/access.log.1  | grep -v -E "\.(css|png|jpg|gif)" | cut -f2 -d'"' | uniq -c
-
+```
 
 ---
 ![alt text](image.png)
