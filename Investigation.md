@@ -16,9 +16,10 @@ awk '{print $1}' var/log/nginx/access.log.1  | sort | uniq -c | sort -nr
 
 grep -E "^192.168.9.1 " var/log/nginx/access.log.1  | grep -v -E "\.(css|png|jpg|gif)" | cut -f2 -d'"' | uniq -c
 ```
+![alt text](image.png)
 
 ---
-![alt text](image.png)
+
 ## Question 2
 Your analysis shows the attacker was able to export the application's database without ever authenticating. Which PHP file was abused to make this possible? (4 points)  
 `file.php`
