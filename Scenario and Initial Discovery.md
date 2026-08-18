@@ -87,10 +87,10 @@ PATH to files
 
 # Initial discovery
 UAC - Unix-like Artifacts Collector image on the desktop
-Path: C:\Users\BTLOTest\Desktop\Artefacts\ForumBreach\uac-linux-20260625114019
+Path: C:\Users\BTLOTest\Desktop\Artefacts\ForumBreach\uac-li
 
 Windows Subsytem for Linux on Desktop
-cd /mnt/c/Users/BTLOTest/Desktop/Artefacts/ForumBreach/uac-linux-20260625114019/
+`cd /mnt/c/Users/BTLOTest/Desktop/Artefacts/ForumBreach/uac-linux-20260625114019/[`
 
 ls -trl var/www/discuz/          
 ls -trl var/log/
@@ -117,6 +117,7 @@ root@ForumBreach:/mnt/c/Users/BTLOTest/Desktop/Artefacts/ForumBreach/uac-linux-2
 
 While reviewing the forum server's logs, you notice traffic that doesn't match normal user behavior. What is the exact timestamp of the attacker's first attempt to exploit the forum application? (4 points
 YYYY-MM-DD HH:MM:SS
+
 
 Your analysis shows the attacker was able to export the application's database without ever authenticating. Which PHP file was abused to make this possible? (4 points) 
 file.php
