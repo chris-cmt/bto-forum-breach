@@ -29,7 +29,8 @@ Your analysis shows the attacker was able to export the application's database w
 ## Question 3
 The attacker exploited a race condition by registering a "special" username with the administrator's password hash coming from the exported database. What was the exact username used for this registration as recorded in the database logs? (4 points)  
 `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX X XXXXXXXX`
-btlo@ForumBreach:/mnt/c/Users/BTLOTest/Desktop/Artefacts/ForumBreach/uac-linux-20260625114019/[root]$ less var/log/mysql/mysql.log 
+
+` btlo@ForumBreach:/mnt/c/Users/BTLOTest/Desktop/Artefacts/ForumBreach/uac-linux-20260625114019/[root]$ less var/log/mysql/mysql.log `
 
 ![alt text](image-1.png)
 
