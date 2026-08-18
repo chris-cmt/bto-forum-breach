@@ -58,16 +58,38 @@ UPDATE pre_common_member SET password='153979402029a9d2d67258d36c71c2b6' WHERE u
 UPDATE discuz`.pre_ucenter_notelist SET app1='1', totalnum=totalnum+1, succeednum=succeednum+1, dateline='1782298375' ,closed='1' WHERE noteid='1'
 discuz@localhost on discuz using TCP/IP
 ```
+/var/www/html/discuz/data/attachment/common/cf/220525ib33aahzvoqkmpkk.png
+1.
+/var/www/discuz5/data/attachment/common/cf/220525ib33aahzvoqkmpkk.png
+2.
+/var/www/discuz/data/attachment/common/cf/220525ib33aahzvoqkmpkk.png
+3.
+
+/var/www/html/discuz/data/attachment/common/cf/220525ib33aahzvoqkmpkk.png (The
+most common default Nginx mapping for Discuz).
+
+/var/www/html/data/attachment/common/cf/220525ib33aahzvoqkmpkk.png (If the forum
+was installed directly in the web root).
+
+/var/www/discuz/data/attachment/common/cf/220525ib33aahzvoqkmpkk.png (Double-
+check for any typos, double slashes, or spacing issues in your submission).
+
 
 ![alt text](image-3.png)
 
 epoch timestamp 1782298375, we get in UTC: 2026-06-24 10:52:55
+
+<img width="2918" height="336" alt="image" src="https://github.com/user-attachments/assets/89eefe2e-fc79-4706-84d4-1b22e14fd772" />
 
 ---
 
 ## Question 5
 As part of establishing a foothold, the attacker uploaded a PHP stager disguised as a legitimate file belonging to the forum. What is the full path on the filesystem where this first "stager" was stored? (4 points)  
 `/var/…/full/path/to/file.ext`
+
+<img width="2528" height="313" alt="image" src="https://github.com/user-attachments/assets/9db1c16d-98fe-4e45-bf19-e3f41ec1fbb5" />
+<img width="2594" height="588" alt="image" src="https://github.com/user-attachments/assets/14c427c1-af8b-42c2-9401-d8991a79bba4" />
+
 
 ---
 
