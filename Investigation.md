@@ -25,8 +25,9 @@ grep -E "^192.168.9.1 " var/log/nginx/access.log.1  | grep -v -E "\.(css|png|jpg
 ```
 
 <img width="2625" height="225" alt="image" src="https://github.com/user-attachments/assets/31efa3ca-3c6e-4ef8-9f47-8f1beab4c0c2" />
-2026-06-23 09:43:20
-![alt text](image.png)
+
+`2026-06-23 09:43:20`
+
 
 ---
 
