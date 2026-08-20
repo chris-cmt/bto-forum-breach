@@ -100,6 +100,11 @@ epoch timestamp 1782298375, we get in UTC: 2026-06-24 10:52:55
 As part of establishing a foothold, the attacker uploaded a PHP stager disguised as a legitimate file belonging to the forum. What is the full path on the filesystem where this first "stager" was stored? (4 points)  
 `/var/…/full/path/to/file.ext`
 
+`var/www/discuz/data/attachment/common/cf/185430phbhbnruhnuan6hg.png`
+<img width="2799" height="870" alt="image" src="https://github.com/user-attachments/assets/4a1ee305-35a4-4f36-8526-163793ee3e9d" />
+
+
+
 <img width="2528" height="313" alt="image" src="https://github.com/user-attachments/assets/9db1c16d-98fe-4e45-bf19-e3f41ec1fbb5" />
 <img width="2594" height="588" alt="image" src="https://github.com/user-attachments/assets/14c427c1-af8b-42c2-9401-d8991a79bba4" />
 
