@@ -15,7 +15,23 @@ grep "\.php" var/log/nginx/access.log.1 | grep -v -E "\.(css|js)"
 awk '{print $1}' var/log/nginx/access.log.1  | sort | uniq -c | sort -nr
 
 grep -E "^192.168.9.1 " var/log/nginx/access.log.1  | grep -v -E "\.(css|png|jpg|gif)" | cut -f2 -d'"' | uniq -c
+
+**ANSWER**
+btlo@ForumBreach:/mnt/c/Users/BTLOTest/Desktop/Artefacts/ForumBreach/uac-linux-20260625114019/[root]$ grep -vE "\.(css|js|png|gif|jpg|jpeg|ico|svg)(\ ?.* )? HTTP" var/log/nginx/access.log.1 | grep -v "Mozilla/5.0"
+"HEAD / HTTP/1.1" 404 @ "-" "curl/7.81.0"
+[23/Jun/2026:11:09:24 +0300] "HEAD /install/ HTTP/1.1" 404 0 "-" "curl/7.81.0"
+"HEAD / HTTP/1.1" 302 0 "-" "curl/7.81.0"
+192.168.9.1 - - [23/Jun/2026:12:43:20 +0300] "POST /member.php?mod=logging&action=login&loginsubmit=yes HTTP/1.1" 200 4184 "-" "python-requests/2.34.2"
+
+
+
+127.0.0.1 - - [23/Jun/2026:11:09:14 +0300]
+127.0.0.1 - -
+127.0.0.1 - - [23/Jun/2026:11:13:38 +0300]
 ```
+
+<img width="2625" height="225" alt="image" src="https://github.com/user-attachments/assets/31efa3ca-3c6e-4ef8-9f47-8f1beab4c0c2" />
+2026-06-23 09:43:20
 ![alt text](image.png)
 
 ---
