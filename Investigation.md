@@ -35,6 +35,7 @@ grep -E "^192.168.9.1 " var/log/nginx/access.log.1  | grep -v -E "\.(css|png|jpg
 Your analysis shows the attacker was able to export the application's database without ever authenticating. Which PHP file was abused to make this possible? (4 points)  
 `file.php`
 
+`db.bak.php`
 ---
 
 ## Question 3
